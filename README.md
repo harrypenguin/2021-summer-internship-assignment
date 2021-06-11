@@ -1,5 +1,5 @@
 Hey mentors!! 
-My Java algorithms are stored in the folder named Challenge 1, android app in Challenge 2, and website in Challenge 3. Thank you for your time, I believe I can be a beneficial addition to the team.
+Both of my Java algorithms are stored in the folder named Challenge 1, android app in Challenge 2, and website in Challenge 3. Thank you for your time, I believe I can be a beneficial addition to the team.
 
 Harry Peng 2021
 # Game of Apps Development Intern Interview 2021
