@@ -1,3 +1,7 @@
+Hey mentors!! 
+My Java algorithms are stored in the folder named Challenge 1, android app in Challenge 2, and website in Challenge 3. Thank you for your time, I believe I can be a beneficial addition to the team.
+
+Harry Peng 2021
 # Game of Apps Development Intern Interview 2021
 
 Thanks for your interest in the Game of Apps developer intern position! This repo contains a list of tasks for you to do, so we can get a gauge of your skill and abilities for the position.

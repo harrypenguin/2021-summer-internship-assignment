@@ -1,0 +1,137 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  margin-top: 65px;
+}
+
+.grid-item {
+  width: 400px;
+  height: 300px;
+  margin: 2em auto;
+  vertical-align: middle;
+  position: relative;
+}
+
+.grid-item img {
+  object-fit: cover;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  max-width: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.one {
+  clip-path: circle(42.6% at 50% 50%);
+}
+
+.two {
+  border: 10px solid white;
+}
+
+.three {
+  border: 10px solid white;
+}
+
+.four {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+
+h1 {
+  color: white;
+  font-size: 72px;
+  font-family: sans-serif;
+  font-style: normal;
+  line-height: 98px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+body {
+  background-image: linear-gradient(#3856BF, #E57E67);
+  background-repeat: no-repeat;
+}
+
+html {
+  min-height: 100%;
+}
+
+#overlay {
+  position: fixed;
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#overlayBox {
+  width: 1000px;
+  height: 610px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.90);
+  border-radius: 10px;
+}
+
+#description {
+  margin-top: 64px;
+  font-family: sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: black;
+}
+
+#overlayImage {
+  margin-top: 48px;
+  height: 390px;
+}
+
+.closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  color: black;
+  text-decoration: none;
+}
+
+#container1 {
+  background-color: white;
+  clip-path: circle(41.6% at 50% 50%);
+}
+
+#container4 {
+  background-color: white;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
