@@ -1,12 +1,11 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-
-
-// Harry Peng 2021 Internship Assignment: Algorithms
+import java.util.stream.IntStream;
 
 class Main {
   public static void main(String[] args) {
@@ -22,11 +21,7 @@ class Main {
     reconcileHelper(a, b);
   }
 
-
-
-
   /*Algorithm #1
-  I used a very simple algorithm:
   1. check if array has less than two elements, if yes, return nothing
   2. create a HashSet to contain all the pairs
   3. looping through each combination of each element in the two arrays. if they add up to the target sum:
@@ -58,11 +53,11 @@ class Main {
             }
           }
         }
-        System.out.println(pairs);
+        for (List<Integer> i:pairs) {
+          System.out.println(i.toString().replace("[", "(").replace("]", ")").trim());
+        }
   }
   
-
-
   /*Algorithm #2
   1. create two arraylists to store the unique values
   2. turn the input arrays into arraylists for ease of use later on
