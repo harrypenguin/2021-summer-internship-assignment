@@ -1,12 +1,10 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-import java.util.stream.IntStream;
 
+// Harry Peng 2021 Internship Assignment: Algorithms
 class Main {
   public static void main(String[] args) {
     int[] testArray = {2, 4, 5, 1, 3, 5, 4};
